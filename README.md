@@ -2,7 +2,7 @@
 
 # Bsky-Bot
 
-Polybot is a simple framework for building robust social media bots for multiple networks in Python.
+Bsky-Bot is a simple framework for building robust social media bots for multiple networks in Python.
 
 ## Features
 
@@ -16,11 +16,11 @@ Polybot is a simple framework for building robust social media bots for multiple
 
 ## Limitations/Wishlist
 
-* Polybot currently doesn't have support for receiving messages, so it's only useful for post-only
+* Bsky-Bot currently doesn't have support for receiving messages, so it's only useful for post-only
   bots for now...
 
 ## Getting started
-Install Polybot [from PyPi](https://pypi.org/project/polybot/) using your package manager of choice.
+Install Bsky-Bot [from PyPi](https://pypi.org/project/polybot/) using your package manager of choice.
 
 ```python
 from polybot import Bot
@@ -63,7 +63,7 @@ Images are automatically resized to below the maximum allowable size on each pla
 ### Handling post length limitations
 
 Services have differing post length limits, so a list of messages can be passed to the `post` method,
-and Polybot will choose the longest message which is supported by each configured service.
+and Bsky-Bot will choose the longest message which is supported by each configured service.
 
 ```python
 self.post(["This is a short message", "This is a much longer message......"])
@@ -84,7 +84,6 @@ The state dictionary is serialised to a file called `<bot_name>.state` in the lo
 This automatically happens when the process is terminated, but you can also trigger this
 by calling `self.save_state()`, or by sending the process a `SIGHUP` signal.
 
-## Bots which use Polybot
+## Shoutouts to Russss
 
-* [@dscovr_epic](https://bot.country/@dscovr_epic)
-* [Matthew's bots](https://github.com/dracos/scheduler)
+* [@dscovr_epic](https://github.com/russss/polybot)
