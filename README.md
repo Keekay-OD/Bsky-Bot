@@ -86,4 +86,4 @@ by calling `self.save_state()`, or by sending the process a `SIGHUP` signal.
 
 ## Shoutouts to Russss
 
-* [@dscovr_epic](https://github.com/russss/polybot)
+* [@russss](https://github.com/russss/polybot)
