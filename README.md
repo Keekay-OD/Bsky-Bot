@@ -1,6 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/polybot.svg)](https://badge.fury.io/py/polybot)
 
-# Polybot
+# Bsky-Bot
 
 Polybot is a simple framework for building robust social media bots for multiple networks in Python.
 
@@ -17,7 +17,7 @@ Polybot is a simple framework for building robust social media bots for multiple
 ## Limitations/Wishlist
 
 * Polybot currently doesn't have support for receiving messages, so it's only useful for post-only
-  bots.
+  bots for now...
 
 ## Getting started
 Install Polybot [from PyPi](https://pypi.org/project/polybot/) using your package manager of choice.
